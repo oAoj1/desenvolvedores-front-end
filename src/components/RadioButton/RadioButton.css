@@ -1,0 +1,19 @@
+.radioButtonContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputsRadioContainer input,
+.inputsRadioContainer label{
+    margin: 0.5rem 0.15rem;
+}
+
+.inputsRadioContainer label{
+    font-style: italic;
+}
+
+.inputsRadioContainer input{
+    cursor: pointer;
+}

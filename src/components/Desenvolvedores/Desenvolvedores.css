@@ -1,0 +1,130 @@
+.desenvolvedoresContainerFalse textarea,
+.desenvolvedoresContainerTrue textarea{
+    width: 100%;
+    resize: none;
+    border: none;
+}
+
+.desenvolvedoresContainerFalse textarea:hover,
+.desenvolvedoresContainerTrue textarea:hover{
+    cursor: pointer;
+}
+
+.nome{
+    background-color: transparent;
+    font-size: 2em;
+    height: 45px;
+    text-decoration: underline;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.cargo{
+    width: 100%;
+    font-style: italic;
+    font-weight: bold;
+    height:25px;
+    font-size: 1.25em;
+    background-color: transparent;
+}
+
+.nivel{
+    width: 100%;
+    height: 40px;
+    background-color: transparent;
+    font-size: 2em;
+}
+
+.desenvolvedoresContainerFalse .cargo{
+    color: var(--lilas); 
+}
+
+.desenvolvedoresContainerTrue .nome{
+    color: var(--ciano);
+}
+
+.desenvolvedoresContainerTrue .cargo{
+    color: #ccc;
+}
+
+.desenvolvedoresContainerTrue .nivel{
+    color: var(--branco);
+}
+
+.desenvolvedoresContainerFalse{
+    width: 100%;
+    max-width: 300px;
+    height: 100%;
+    margin: 1rem;
+    padding: 1rem 1.5rem;
+    border-radius: 10px 0 10px 0;
+    display: flex;
+    align-items: center;
+    filter: drop-shadow(1px 1px 5px rgba(0,0,0,0.5));
+    background-color: var(--branco);
+    color: var(--preto);
+}
+
+.desenvolvedoresContainerTrue{
+    width: 100%;
+    max-width: 300px;
+    height: 100%;
+    margin: 1rem;
+    padding: 1rem 1.5rem;
+    border-radius: 10px 0 10px 0;
+    display: flex;
+    align-items: center;
+    filter: drop-shadow(1px 1px 5px rgba(0,0,0,0.5));
+    background:linear-gradient(-155deg, var(--preto),var(--lilas));
+    color: var(--branco);
+}
+.prioridadeContent{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.devsContent{
+    width: 100%;
+}
+
+.devsContent svg{
+    font-size: 2rem;
+}
+
+.devsContent svg:nth-child(2),
+.excluirContent svg{
+    color: #ccc;
+    transition: 0.3s;
+    font-size: 1.5em;
+}
+
+.devsContent svg:hover:nth-child(2){
+    cursor: pointer;
+    color: #00ffff;
+}
+
+.excluirContent svg:hover{
+    cursor: pointer;
+    color: #ff0000;
+}
+
+.desenvolvedoresContainerTrue svg:nth-child(2){
+    color: var(--ciano);
+}
+
+.nivelExcluirContent{
+    margin: 1.5rem 0 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nivelContent{
+    display: flex;
+    align-items: center;
+}
+
+.nivelContent svg{
+    font-size: 2rem;
+}
