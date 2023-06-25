@@ -27,11 +27,11 @@ export default function FormularioDesenvolvedores(){
 
     useEffect(() => {
         function botaoLiberarDados(){
-            let btn = document.getElementById('botaoEnviar')
+            let botao = document.getElementById('botaoEnviar')
             
             if(nome && cargo && nivel){
-                btn.style.backgroundColor = '#fff'
-                btn.style.color = '#000'
+                botao.style.backgroundColor = '#fff'
+                botao.style.color = '#000'
             }
         }
 
