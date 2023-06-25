@@ -1,5 +1,5 @@
 import './FormularioDesenvolvedores.css'
-import Api from '../../services/Api.ts'
+import Api from '../../services/Api'
 import { useEffect, useState } from 'react'
 import Desenvolvedores from '../Desenvolvedores'
 import RadioButton from '../RadioButton/index.js'
