@@ -25,20 +25,6 @@ export default function FormularioDesenvolvedores(){
         
     },[])
 
-    useEffect(() => {
-        function botaoLiberarDados(){
-            let botao = document.getElementById('botaoEnviar')
-            
-            if(nome && cargo && nivel){
-                botao.style.backgroundColor = '#fff'
-                botao.style.color = '#000'
-            }
-        }
-
-        botaoLiberarDados()
-
-    },[nome,cargo,nivel])
-
     async function pegarTodosDevs(){
         const response = await Api.get('/dev',)
         setListaDevs(response.data)
